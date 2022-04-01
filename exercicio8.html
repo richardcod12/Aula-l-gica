@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+
+<body>
+
+   
+
+    <script>
+        var nota1 = parseFloat(prompt("Digite a sua primeira nota"))
+        var nota2 = parseFloat(prompt("Digite a sua segunda nota"))
+        var nota3 = parseFloat(prompt("Digite a sua terceira nota"))
+        var nota4 = parseFloat(prompt("Digite a sua quarta nota"))
+
+        var nota1certa = parseFloat
+        var nota2certa = parseFloat
+        var nota3certa = parseFloat
+        var nota4certa = parseFloat
+
+        if (nota1>0 && nota1<10)
+            nota1certa = nota1
+        else
+            nota1certa = 0
+        if (nota2>0 && nota2<10)
+            nota2certa = nota2
+        else
+            nota2certa = 0
+        if (nota3>0 && nota3<10)
+            nota3certa = nota3
+        else
+            nota3certa = 0
+        if (nota4>0 && nota4<10)
+            nota4certa = nota4
+        else
+            nota4certa = 0
+
+        var media = parseFloat((nota1certa + nota2certa + nota3certa + nota4certa) / 4)
+
+        if (media > 5)
+            document.write("Você passou no teste! Sua média foi de: " + media)
+        else
+            document.write("Tente Novamente, sua média foi de: " + media)
+    </script>
+
+</body>
+
+</html>
